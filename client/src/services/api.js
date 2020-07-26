@@ -1,6 +1,6 @@
 import axios from 'axios';
 const api = axios.create({
-    baseURL: process.env.REACT_APP_BASE_URL || 'localhost',
+    baseURL: process.env.REACT_APP_BASE_URL || 'https://sco-desafio-final.herokuapp.com',
 });
 
 export default api;
